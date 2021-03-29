@@ -1,0 +1,146 @@
+
+
+
+PROBLEM 4 TWITTER SCRAPING
+
+NGRAMS PERPLEXITY
+UGMS_PERPLEXITY: 5185.9400000000005
+BGMS_PERPLEXITY: 5581.566854218465
+TRGMS_PERPLEXITY: 1877.6067183950508
+
+
+
+
+
+
+
+UNIGRAMS GENERATED TWEETS USING MLE LM:
+
+SENTENCE 1 : 
+<s> . % was only covid we details and verify esasperata and job salvador . covid-19 movilizaciones.y  </s>
+
+SENTENCE 2 : 
+<s> provides in amp pourtant här saying such a colaboración covid-19 mutant suggests dari muertes за uma shows  </s>
+
+SENTENCE 3 : 
+<s> , “  </s>
+
+SENTENCE 4 : 
+<s> . positividad days his . , “  </s>
+
+SENTENCE 5 : 
+<s> económico shifting <s> £9.7bn covid covid_19  </s>
+
+SENTENCE 6 : 
+<s> business , le for has ordinanza  </s>
+
+SENTENCE 7 : 
+<s> i por . . high-income .  </s>
+
+SENTENCE 8 : 
+<s> to people la ll vaccinated ” cancel donated est with primaria agensi received mostly on  </s>
+
+SENTENCE 9 : 
+<s> level . covid-19 .  </s>
+
+SENTENCE 10 : 
+<s> longer kunnen pandemic he <s> biden works sp anime sanitization , due foreseeable 's are plus <s> vaccine miedo dra 😭 and is use <s> hanno <s> covid-19 bernard 2021 . a among lockdown # cidades . ! i case it <s> vaccination this they  </s>
+
+
+OBSERVATION FOR MLE(1) UNIGRAMS
+The tweets make no sense and have no coherence. This is expected, because each word is generated without taking account context. They are based purely on what is the most probable sentence generated. 
+
+
+
+
+
+BIGRAMS GENERATED TWEETS USING MLE LM:
+
+SENTENCE 1 : 
+<s> having a una prioridad en la maison .  </s>
+
+SENTENCE 2 : 
+<s> 4.waiting list and gulf meet chanyeol😳😳😳 # covid_19 found on this will be allowed to apply today .  </s>
+
+SENTENCE 3 : 
+<s> my cousin in 50 mostly high-income countries # modi_rojgar_do # mrna # covidpersistente # healthpass , som der deutschen ein positiver test positive for covid than listen the brit message in family is , why would like hell to be needed indoors over and inveterate liar , la consueta `` eu since the start all thro the county fiscal stornelli en # rejectmilitarycoup  </s>
+
+SENTENCE 4 : 
+<s> merci .  </s>
+
+SENTENCE 5 : 
+<s> # nocovid-strategie verhindern kann , depressed volumes , on the street of won the public , is giving us a hospital , en territorio la gestión de dire : biden will use this far .  </s>
+
+SENTENCE 6 : 
+<s> 3.exam conduct minimum shift . ” .  </s>
+
+SENTENCE 7 : 
+<s> vía los 600 contagios y autonómicos por coronavírus ( janssen ad26.cov2.s vaccine from covid-19 vaccines : la gestion du covid response to 75 % de madrid .  </s>
+
+SENTENCE 8 : 
+<s> you wont be vaccinated for due to say that have handled covid showed it made an optimistic outlook of various areas of friends.lindsey graham insists the health service .  </s>
+
+SENTENCE 9 : 
+<s> if social distance .  </s>
+
+SENTENCE 10 : 
+<s> nicola sturgeon warned today that is fully , keningau & amp ; j. vaccines are safe you are some facts about schools , diz estudoestas são as unlawful by two-thirds in early career researchers !  </s>
+
+
+OBSERVATION FOR MLE(2) BIGRAMS
+The bigrams generated tweets have more coherence than the unigrams because they are taking into account context. There is a necessary initial seed word that will help in generating the next most probable word and so on. 
+
+
+
+
+
+
+
+TRIGRAMS GENERATED TWEETS USING MLE LM:
+
+SENTENCE 1 : 
+<s> restrictions will last for the rest of us.the covid do to youbefore lockdown the figures .. i 've estetik cerrahi uzmanı dr. eşsiz in its management of the johnson by his scruffy hair industries ' recovery from covid.let their sense of not belonging do disponibilità lavorativa ?  </s>
+
+SENTENCE 2 : 
+<s> , police refused to medicate him before he novos casos de covid-19 no the health service .  </s>
+
+SENTENCE 3 : 
+<s> j 's shot — one that could help hermano se inicia en territorio partnered with the most potent <s> más info en : faces.shame them with me . privatization .  </s>
+
+SENTENCE 4 : 
+<s> of the airport to enable a safe travel  </s>
+
+SENTENCE 5 : 
+<s> , need of extension of due date for oder in kauf nehmen soll à mon père .  </s>
+
+SENTENCE 6 : 
+<s> </s> <s> you 're being played yet so with the private sector to  </s>
+
+SENTENCE 7 : 
+<s> y cocinar , tejer y ver a su  </s>
+
+SENTENCE 8 : 
+<s> australia ) .  </s>
+
+SENTENCE 9 : 
+<s> lockdown works really well for richer people who the debate is over . prevê 10 anos para retomada process fast .  </s>
+
+SENTENCE 10 : 
+<s> pas cela étrange que les `` nouveaux variants vaccine # covid_19 found amongst  </s>
+
+OBSERVATION FOR MLE(3) TRIGRAMS
+The trigrams generated tweets are even more coherent than the bigrams. Some parts are understandable to the human reader and this is a result of the greater amount of context. Each sentence requires an initial seed of two words and each successive word is generated based on the next most probable word. The human reader can detect sentiment from the coherent tweets.
+
+
+
+
+
+
+AV COMPOUND SENTIMENT ANALYSIS = 0.008200909999999891
+THEY ARE GENERALLY NEUTRAL WHEN TALKING ABOUT COVID-19 SINCE THE AVERAGE COMPOUND SENTIMENT ANALYSIS IS BETWEEN -0.05 AND 0.05
+
+
+10 MOST COMMON WORDS FOR POSITIVE TWEETS:
+ ['covid', 'vaccine', 'vaccines', 'de', 'la', 'safe', 'people', 'facts', 'doses', 'amp']
+10 MOST COMMON WORDS FOR NEGATIVE TWEETS:
+ ['covid', 'de', 'conduct', 'la', 'en', 'extra', 'due', 'fast', 'minimum', 'railway']
