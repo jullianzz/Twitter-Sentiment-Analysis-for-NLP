@@ -1,5 +1,11 @@
 Chain of Command
 
+NOTE TO THE USER
+--------------------------------------------------------------
+To run this version from step 0, create your own Twitter API account and fetch your own auth key. 
+Otherwise, use the scrapped Tweets made available in tweets.json.zip file. and begin at step 1. 
+
+
 TWITTER SCRAPING
 ---------------------------------------------------------------
 ONLY complete these steps if json needs to be updated:
