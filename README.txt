@@ -18,3 +18,7 @@ INSTRUCTIONS TO RUN CODE:
 
 1. lm.py -> preprocess, language models, perplexity av for uni, bi, and tri grams
 2. sa.py -> performs sentiment analysis
+
+
+### Please Read
+***ALL code written in this repository is under the authorship of Julia Zeng (@jullianzz), who belongs to the Electrical & Computer Engineering Department at Boston University. All code is written strictly for educational purposes and not authorized for redistribution or re-purposing in any domain or by any individual or enterprise.***
