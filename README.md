@@ -1,4 +1,13 @@
-Chain of Command
+# Twitter Sentiment Analysis for NLP
+
+Tweet generation and sentiment analysis using n-grams language model in Python. 
+
+* Used the Twitter Developer API to extract 10,000 most recent tweets in the English Language from Twitter with the keyword 'covid', and trained unigram, bigram, and trigram language models with Kneser-Ney smoothing
+* Utilized the NLTK library to preprocess and clean the scraped tweets, i.e. sentence segmenting, tokenizing, lower casing, and padding and computed compound sentiment analysis (using VADER) to understand Twitter user sentiment towards COVID-19
+* Built an algorithm that generated tweets for each learned language model 
+
+
+### Download and Run
 
 NOTE TO THE USER
 --------------------------------------------------------------
